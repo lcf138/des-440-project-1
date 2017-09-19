@@ -105,11 +105,44 @@ body {
 /* ==========================================================================
    My CSS customization
    ========================================================================== */
+   @media only screen and (min-width: 960px);
+
+
 section.container {
-
-
+max-width:1200px;
 }
 
+section.container1 {
+background-color:#FFCC66;
+height:900px;
+padding-top: 100px;
+
+}
+section.container2 {
+background-color:#FF6666;
+height:900px;
+padding-top: 100px;
+}
+
+section.container3 {
+background-color:#FFCC66;
+height:900px;
+padding-top: 100px;
+}
+section.container4 {
+background-color:#FF6666;
+height:900px;
+padding-top: 100px;
+}
+section.gradientcontainer {
+height:500px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffcc66+22,ff6666+77,ff6666+100 */
+background: #ffcc66; /* Old browsers */
+background: -moz-linear-gradient(top, #ffcc66 22%, #ff6666 77%, #ff6666 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffcc66 22%,#ff6666 77%,#ff6666 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffcc66 22%,#ff6666 77%,#ff6666 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc66', endColorstr='#ff6666',GradientType=0 ); /* IE6-9 */
+}
 .inner-wrapper {
   max-width: 750px;
 margin: 0 auto;
@@ -121,6 +154,14 @@ font:"Montserrat", Verdana, sans-serif;
 color:#3D2A30;
 justify:auto;
 background:yellow;
+}
+h1 {
+font-size:30px;
+font:"Montserrat", Verdana, sans-serif;
+color:#3D2A30;
+justify-content:auto;
+background:pink;
+padding-left: 60px;
 }
 
 .quote {
@@ -135,12 +176,15 @@ font-size:6em;
 font:"Montserrat", Verdana, sans-serif;
 font-weight: bold;
 color:#FF3366;
-justify-content: center;;
-background:green;
+justify-content: center;
+padding-left:60px;
+background:black;
 }
 
 .illustrations{
   width: 600px;
+  padding-bottom: 50px;
+  justify-content: center;
 }
 
 img {
