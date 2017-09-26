@@ -58,7 +58,7 @@ img {
 
 /*Here's where you would put your Google Fonts import*/
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Source+Sans+Pro:200,300,400,400i,600,700,900|Source+Serif+Pro:400,600,700');
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 /* BOX MODEL SETTING FOR ALL ELEMENTS BY DEFAULT
 THIS IS BETTER THAN DEFAULT, YOU SHOULD ALWAYS USE THIS:
@@ -74,7 +74,7 @@ html {
 body {
   font-size: 16px; /* Base Size */
   /*Setting the base font family*/
-  font-family: "Source Sans Pro", Verdana, sans-serif;
+  font-family: "Montserrat", Verdana, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -83,7 +83,6 @@ body {
 /*@media only screen and (min-width: 960px) {
 
 }
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -103,19 +102,143 @@ body {
 .clearfix {
   *zoom: 1;
 }
+/* ==========================================================================
+   My CSS customization
+   ========================================================================== */
+   @media only screen and (min-width: 960px);{
+     section.container1 {
+       height:11.11%;
+       padding:0;
+     };
+     section.container2 {
+       height:11.11%;
+       padding:0;
+     };
+     section.container3 {
+       height:11.11%;
+       padding:0;
+     };
+     section.container4 {
+       height:11.11%;
+       padding:0;
+     };
+   }
 
-p {
-font-size:;
-font:;
-color:;
-justify:;
-background:;
+section.container1 {
+background-color:#FFCC66;
+height:1400px;
+padding-top: 6.250em;
+margin:auto;
+}
+section.container2 {
+background-color:#FF6666;
+height:900px;
+padding-top: 6.250em;
+margin:auto;
 }
 
-quote {
-font-size:;
-font:;
-color:;
-justify:;
-background:;
+section.container3 {
+background-color:black;
+height:650px;
+padding-top: 6.250em;
+margin: auto;
+}
+
+section.container4 {
+background-color:yellow;
+height:28.125em;
+padding-top: 6.250em;
+margin: auto;
+}
+
+.inner-wrapper {
+max-width: 750px;
+margin: auto;
+}
+header {
+font-size:6em;
+font:"Montserrat", Verdana, sans-serif;
+font-weight: bold;
+color:#D24043;
+padding-left:60px;
+padding-top: 150px;
+margin: auto;
+
+}
+h1 {
+font-size:1.875em;
+font:"Montserrat", Verdana, sans-serif;
+color:#3D2A30;
+margin: auto;
+}
+h2{
+font-size:4em;
+font:"Montserrat", Verdana, sans-serif;
+color:#3D2A30;
+width:90%;
+margin:0 auto;
+}
+
+
+.quote {
+font-size:2em;
+font:"Montserrat", Verdana, sans-serif;;
+color:#D24043;
+background:pink;
+}
+
+p {
+font-size:1.25em;
+font:"Montserrat", Verdana, sans-serif;
+color:#3D2A30;
+justify:auto;
+background:orange;
+padding-bottom:0;
+}
+
+.illustrations{
+  max-width: 600px;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+
+img {
+  width:100%;
+  height:auto;
+  padding:auto;
+  background-color: pink;
+
+}
+.cart {
+  animation-name:s;
+  transition-delay: 0s;
+}
+.watermelon {
+  padding-top: 3.125em;
+  padding-bottom: 3.125em;
+  background-color: blue;
+
+}
+.thing1 {
+  width:30%;
+  height:auto;
+}
+
+.thing2 {
+  width:30%;
+  height:auto;
+}
+
+.thing3 {
+width:30%;
+height:auto;
+}
+button {
+  background:none;
+  box-shadow:none;
+  border:none;
+  margin:;
+  right:0;
+  bottom:0;
+  position: fixed;
 }
