@@ -105,7 +105,7 @@ cart. They got all the essentials: chips and Juicy Fruit gum.</p><br><br>
     <div class="inner-wrapper">
       <div class="illustrations">
 
-        <div class="flexcontainer">
+        <div class="flexcontainer wobble">
       <div class="thing1">  <img src="images/gum.png"> </div>
       <div class="thing2"><img src="images/watermelon.png"> </div>
       <div class="thing3"><img src="images/chips.png"></div>
@@ -153,17 +153,15 @@ munch on some fresh watermelon!</p>
 </section>
 </div>
 
-</section>
-
 <section class="container4">
   <div class="inner-wrapper">
   <h2>The End </h2>
-  <button type="button"><img src="images/button.png"></button>
+  <button type="button" onclick="handleScroll('.container1')"><img src="images/button.png"></button>
 </div>
 </section>
 
         <!-- This pulls jQuery from Google's Content Delivery Network -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <!-- This code checks for the existence of the jQuery object, if it doesn't exist, that means the line above failed,
         Google's CDN is down. So, let's write a tag that pulls in our local jQuery instead. -->
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
